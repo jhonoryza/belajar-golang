@@ -28,15 +28,15 @@ func TestBuyBook(t *testing.T) {
 }
 
 func TestGetAllBook(t *testing.T) {
-	books := []bookstore.Book{
-		{1, "Title 1", "Author 1", 5},
-		{2, "Title 2", "Author 2", 10},
+	wants := map[int]bookstore.Book{
+		1: {1, "Title 1", "Author 1", 5},
+		2: {2, "Title 2", "Author 2", 10},
 	}
 
 	gotBooks := bookstore.GetAllBooks()
 
-	if diff := cmp.Diff(books, gotBooks); diff != "" {
-		t.Errorf("GetAllBooks() returned unexpected books (-want +got):\n%s", diff)
+	if !cmp.Equal(wants, gotBooks) {
+		t.Errorf(cmp.Diff(wants, gotBooks))
 	}
 }
 

@@ -19,10 +19,10 @@ func Buy(b Book) (Book, error) {
 	return b, nil
 }
 
-func GetAllBooks() []Book {
-	var books = []Book{
-		{ID: 1, Title: "Title 1", Author: "Author 1", Copies: 5},
-		{ID: 2, Title: "Title 2", Author: "Author 2", Copies: 10},
+func GetAllBooks() map[int]Book {
+	var books = map[int]Book{
+		1: {ID: 1, Title: "Title 1", Author: "Author 1", Copies: 5},
+		2: {ID: 2, Title: "Title 2", Author: "Author 2", Copies: 10},
 	}
 	return books
 }
