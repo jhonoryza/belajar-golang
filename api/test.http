@@ -1,0 +1,27 @@
+### TEST REQUEST
+GET http://localhost:8080/
+
+### INDEX CATEGORIES
+GET http://localhost:8080/api/categories
+
+### SHOW CATEGORIES
+GET http://localhost:8080/api/categories/2
+
+### UPDATE CATEGORIES
+PUT http://localhost:8080/api/categories/2
+Content-Type: application/json
+
+{
+  "name": "minuman"
+}
+
+### CREATE CATEGORIES
+POST http://localhost:8080/api/categories
+Content-Type: application/json
+
+{
+  "name": "food"
+}
+
+### DELETE CATEGORIES
+DELETE http://localhost:8080/api/categories/6
