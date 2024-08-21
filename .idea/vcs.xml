@@ -2,5 +2,26 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app-say-hello" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-database-migration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-datatabase-mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-dependency-injection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-embed" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-fiber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-generics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-gorm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-goroutines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-httprouter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-json" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-logging" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-restful-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-standard-library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-unit-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-validation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-viper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/belajar-golang-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-say-hello" vcs="Git" />
   </component>
 </project>
